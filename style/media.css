@@ -1,0 +1,126 @@
+@media (max-width: 768px) {
+    .container {
+        width: 85%;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    /* About ========================== 
+    ===================================*/
+
+    .about__images {
+        width: 100%;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .about__image {  
+        margin-top: 20px;
+    }
+
+    .get-in-touch {
+        padding: 2em 0 4em;
+    }
+
+    .title_get-in-touch {
+        width: 70%;
+    }
+
+    /* Newsletter ===================== 
+    ===================================*/
+
+    .newsletter .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title_newsletter {
+        margin-bottom: 20px;
+    }
+}
+
+
+
+@media (max-width: 1200px) {
+
+    /* About ========================== 
+    ===================================*/
+    
+    .about__main {
+        flex-direction: column;
+    }
+
+    .about__text {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .about__images {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    /* Services ======================= 
+    ===================================*/
+
+    .services__text {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .title_services {
+        width: 100%;
+    }
+
+    .title_services:after {
+        display: block;
+        position: absolute;
+        content: '';
+        bottom: -10px;
+        left: 0;
+        right: 0;
+    }
+
+    .description_services {
+        width: 100%;
+        max-width: 500px;
+        margin: 30px 0 20px;
+    }
+
+    .services__capabilities {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services__capability {
+        width: 290px;
+        height: 330px;
+    }
+
+    .services__capability:nth-child(n + 2) {
+        margin-top: 20px;
+    }
+
+    /* Footer ======================= 
+    ===================================*/
+
+    .footer__main .container {
+        flex-direction: column;
+    }
+
+    .footer__company, .footer__links, .footer__contact-us {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+}
